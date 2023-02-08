@@ -1,0 +1,430 @@
+
+main {
+    background-image: linear-gradient(to top, #dfe9f3 0%, white 100%);
+
+
+}
+
+
+body {
+    max-width: 100%;
+   
+    overflow-x: hidden;
+    
+}
+#fecha {
+    display: grid;
+    grid-template-areas: "text1 imagenMain";
+    grid-template-columns: 60% 40%;
+}
+
+/*media celular pequeño**/
+@media screen and (max-width: 419px) {
+    #titulo {
+        font-size: 25px;
+        color: aliceblue;
+    }
+
+    #subtitulo {
+        font-size: 18px;
+        color: aliceblue;
+    }
+
+    #titulo2 {
+        font-size: 18px;
+        color: deepskyblue;
+        padding-top: 2px;
+        text-decoration: underline;
+    }
+
+   
+
+    .text1 {
+        grid-area: text1;
+        text-align: left;
+        padding: 5px;
+        font-weight: 600;
+        font-size: 12px;
+    }
+
+    .imagenMain {
+        grid-area: imagenMain;
+        padding: 5px;
+
+    }
+
+
+    #educacion-sub {
+        font-size: 14px;
+        padding: 4px;
+        margin-bottom: 2px;
+        text-decoration: underline;
+    }
+
+    #Edu {
+        display: grid;
+        grid-template-areas: "text1 text2";
+        grid-template-columns: 60% 40%;
+    }
+
+    .text1 {
+        grid-area: text1;
+        text-align: left;
+        padding: 5px;
+        font-weight: 600;
+        font-size: 12px;
+    }
+
+    #Viñetas {
+        padding-left: 14px;
+    }
+
+    .text2 {
+        grid-area: text2;
+        text-align: left;
+        padding: 5px;
+        font-weight: 600;
+        font-size: 12px;
+    }
+
+    #Viñetas2 {
+        padding-left: 0px;
+    }
+
+    span {
+        font-size: 12px;
+        color: black;
+        font-weight: 600;
+    }
+
+    #institucion {
+        font-size: 12px;
+        color: deepskyblue;
+        font-weight: 600;
+    }
+
+    header {
+        background-image: linear-gradient(to right, #4facfe 0%, #00f2fe 100%);
+        ;
+        align-items: center;
+        padding-top: 5px;
+        border: 5px;
+        border-style: initial;
+        border-color: aquamarine;
+        size: 1000px;
+    }
+
+
+    footer {
+        background-image: linear-gradient(to right, #4facfe 0%, #00f2fe 100%);
+        bottom: 0;
+        width: 100%;
+
+
+    }
+
+    #footerhidden {
+        visibility: hidden;
+        margin: 0px;
+    }
+}
+
+/*media celular **/
+@media screen and (min-width: 420px) {
+    #titulo {
+        font-size: 28px;
+        color: aliceblue;
+    }
+
+    #subtitulo {
+        font-size: 23px;
+        color: aliceblue;
+    }
+
+    #titulo2 {
+        font-size: 22px;
+        color: deepskyblue;
+        padding-top: 2px;
+        text-decoration: underline;
+    }
+
+  
+    p {
+        font-size: 16px;
+        padding-left: 3px;
+    }
+
+    .text1 {
+        grid-area: text1;
+        text-align: left;
+        padding: 5px;
+        font-weight: 600;
+        font-size: 15px;
+
+    }
+
+
+    .imagenMain {
+        grid-area: imagenMain;
+        padding: 5px;
+    }
+
+    #educacion-sub {
+        font-size: 18px;
+        padding: 4px;
+        margin-bottom: 2px;
+        text-decoration: underline;
+
+    }
+
+    #Edu {
+        display: grid;
+        grid-template-areas: "text1 text2";
+        grid-template-columns: 60% 40%;
+    }
+
+    .text1 {
+        grid-area: text1;
+        text-align: left;
+        padding: 5px;
+        font-weight: 600;
+        font-size: 12px;
+    }
+
+    #Viñetas {
+        padding-left: 14px;
+    }
+
+    .text2 {
+        grid-area: text2;
+        text-align: left;
+        padding: 5px;
+        font-weight: 600;
+        font-size: 12px;
+    }
+
+    #Viñetas2 {
+        padding-left: 0px;
+    }
+
+    span {
+        font-size: 16px;
+        color: black;
+        font-weight: 600;
+    }
+
+    #institucion {
+        font-size: 16px;
+        color: deepskyblue;
+        font-weight: 600;
+    }
+
+
+    header {
+        background-image: linear-gradient(to right, #4facfe 0%, #00f2fe 100%);
+        ;
+        align-items: center;
+        padding-top: 5px;
+        border: 5px;
+        border-style: initial;
+        border-color: aquamarine;
+        size: 1000px;
+    }
+
+
+    footer {
+        background-image: linear-gradient(to right, #4facfe 0%, #00f2fe 100%);
+
+    }
+
+    #footerhidden {
+        visibility: hidden;
+
+    }
+}
+
+/*media tablets **/
+@media screen and (min-width: 767px) {
+    #titulo {
+        font-size: 40px;
+        color: aliceblue;
+    }
+
+    #subtitulo {
+        font-size: 35px;
+        color: aliceblue;
+    }
+
+    #titulo2 {
+        font-size: 34px;
+        color: deepskyblue;
+        padding-top: 2px;
+        text-decoration: underline;
+    }
+
+ 
+
+    p {
+        font-size: 19px;
+        padding-left: 3px;
+
+    }
+
+    .text1 {
+        grid-area: text1;
+        text-align: left;
+        padding: 5px;
+        font-weight: 600;
+        font-size: 15px;
+
+    }
+
+
+    .imagenMain {
+        grid-area: imagenMain;
+        padding: 5px;
+    }
+
+    #educacion-sub {
+        font-size: 25px;
+        padding: 4px;
+        margin-bottom: 2px;
+        text-decoration: underline;
+
+    }
+
+    #Edu {
+        display: grid;
+        grid-template-areas: "text1 text2";
+        grid-template-columns: 60% 40%;
+    }
+
+    .text1 {
+        grid-area: text1;
+        text-align: left;
+        padding: 5px;
+        font-weight: 600;
+        font-size: 12px;
+    }
+
+    #Viñetas {
+        padding-left: 14px;
+    }
+
+    .text2 {
+        grid-area: text2;
+        text-align: left;
+        padding: 5px;
+        font-weight: 600;
+        font-size: 12px;
+    }
+
+    #Viñetas2 {
+        padding-left: 0px;
+    }
+
+    span {
+        font-size: 19px;
+        color: black;
+        font-weight: 600;
+    }
+
+    #institucion {
+        font-size: 20px;
+        color: deepskyblue;
+        font-weight: 600;
+    }
+
+
+    header {
+        background-image: linear-gradient(to right, #4facfe 0%, #00f2fe 100%);
+        ;
+        align-items: center;
+        padding-top: 5px;
+        border: 5px;
+        border-style: initial;
+        border-color: aquamarine;
+        size: 1000px;
+    }
+
+
+
+    footer {
+        background-image: linear-gradient(to right, #4facfe 0%, #00f2fe 100%);
+    }
+
+    #footerhidden {
+        visibility: hidden;
+        margin: 0px;
+    }
+}
+
+/*media desktop **/
+@media screen and (min-width: 992px) {
+
+    #titulo {
+        font-size: 40px;
+        color: aliceblue;
+    }
+
+    #subtitulo {
+        font-size: 35px;
+        color: aliceblue;
+    }
+
+    #titulo2 {
+        font-size: 34px;
+        color: deepskyblue;
+        padding-top: 2px;
+        text-decoration: underline;
+    }
+
+
+    img {
+        max-width: 100%;
+    }
+
+    img[width][height] {
+        height: 275px;
+    }
+
+    #imgcv {
+        height: 280px;
+    }
+
+
+    header {
+        background-image: linear-gradient(to right, #4facfe 0%, #00f2fe 100%);
+        ;
+        align-items: center;
+        padding-top: 5px;
+        border: 5px;
+        border-style: initial;
+        border-color: aquamarine;
+        size: 1000px;
+    }
+
+
+
+    footer {
+        background-image: linear-gradient(to right, #4facfe 0%, #00f2fe 100%);
+        bottom: 0%;
+
+    }
+
+    #footerhidden {
+        visibility: hidden;
+        
+    }
+
+
+
+
+
+
+
+
+
+
+
+}
